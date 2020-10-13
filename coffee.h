@@ -3,7 +3,6 @@
 
 #include "caffeinebeverage.h"
 #include <QString>
-#include <QTextStream>
 
 class Coffee : public CaffeineBeverage{
 public:
