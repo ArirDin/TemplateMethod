@@ -6,9 +6,8 @@
 class Tea : public CaffeineBeverage{
 public:
     Tea();
-    virtual void prepareRecipe();
-    void steepTeaBag();
-    void addLemon();
+    virtual void brew();
+    virtual void addCondiments();
 };
 
 #endif // TEA_H

@@ -5,6 +5,13 @@ CaffeineBeverage::CaffeineBeverage()
 
 }
 
+void CaffeineBeverage::prepareRecipe(){
+    boilWater();
+    brew();
+    pourInCup();
+    addCondiments();
+}
+
 void CaffeineBeverage::boilWater(){
     cout << "Boiling water" << endl;
 }
