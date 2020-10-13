@@ -5,17 +5,10 @@ Coffee::Coffee()
 
 }
 
-void Coffee::prepareRecipe(){
-    boilWater();
-    brewCoffeeGrinds();
-    pourInCup();
-    addSugarAndMilk();
-}
-
-void Coffee::brewCoffeeGrinds(){
+void Coffee::brew(){
     cout << "Dripping Coffee through filter" << endl;
 }
 
-void Coffee::addSugarAndMilk(){
+void Coffee::addCondiments(){
     cout << "Adding Sugar and Milk" << endl;
 }

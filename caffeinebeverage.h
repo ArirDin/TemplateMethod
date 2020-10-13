@@ -9,9 +9,11 @@ class CaffeineBeverage
 {
 public:
     CaffeineBeverage();
-    virtual void prepareRecipe() = 0;
+    void prepareRecipe();
     void boilWater();
+    virtual void brew() = 0;
     void pourInCup();
+    virtual void addCondiments() = 0;
 };
 
 #endif // CAFFEINEBEVERAGE_H

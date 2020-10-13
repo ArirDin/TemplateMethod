@@ -6,9 +6,8 @@
 class Coffee : public CaffeineBeverage{
 public:
     Coffee();
-    virtual void prepareRecipe();
-    void brewCoffeeGrinds();
-    void addSugarAndMilk();
+    virtual void brew();
+    virtual void addCondiments();
 };
 
 #endif // COFFEE_H
