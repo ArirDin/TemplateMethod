@@ -9,10 +9,10 @@ class CaffeineBeverage
 {
 public:
     CaffeineBeverage();
-    void prepareRecipe();
-    void boilWater();
+    virtual void prepareRecipe() final;
+    virtual void boilWater() final;
     virtual void brew() = 0;
-    void pourInCup();
+    virtual void pourInCup() final;
     virtual void addCondiments() = 0;
     virtual bool customerWantsCondiments();
 };
